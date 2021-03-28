@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '53a5&9!^xqe@0*rk#_ika@id_6-e=xjn7mhgxr$^sprl-+7so('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://app-teologia.herokuapp.com/', 'http://127.0.0.1:8000/']
 
 
 # Application definition
